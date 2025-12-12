@@ -1,5 +1,5 @@
 {
-	"name": "@okotvetru/n8n-nodes-pocketbase",
+	"name": "@okotvet/n8n-nodes-pocketbase",
 	"version": "0.0.1",
 	"description": "Interact with your PocketBase instance",
 	"license": "MIT",
