@@ -1,4 +1,4 @@
-# n8n-nodes-pocketbase
+# OkOtvet | N8N Nodes for PocketBase
 
 This is a n8n community node. It lets you use PocketBase in your n8n workflows.
 
@@ -6,11 +6,11 @@ PocketBase is an open source backend consisting of embedded database (SQLite) wi
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/reference/license/) workflow automation platform.
 
-[Installation](#installation)  
-[Operations](#operations)  
+[Installation](#installation)
+[Operations](#operations)
 [Credentials](#credentials)
-[Compatibility](#compatibility)  
-[Resources](#resources)  
+[Compatibility](#compatibility)
+[Resources](#resources)
 
 ## Installation
 
@@ -22,17 +22,28 @@ Nearly all PocketBase operations for Base collections should be implemented.
 
 ## Credentials
 
-Ensure you have an Auth collection in your PocketBase defined and the "Username/Password" Auth method turned on.  
-Alternatively, you can use your administrator account and the "_superusers" collection which PocketBase creates automatically since [v0.23.0](https://github.com/pocketbase/pocketbase/releases/tag/v0.23.0).
+Ensure you have an Auth collection in your PocketBase defined and the "Username/Password" Auth method turned on.
+Alternatively, you can use your administrator account and the "\_superusers" collection which PocketBase creates automatically since [v0.23.0](https://github.com/pocketbase/pocketbase/releases/tag/v0.23.0).
 
 ## Compatibility
 
 This was developed for version 1.90.2 of n8n and version 0.27.2 of PocketBase.
 
+## Publication
+
+```bash
+$npm whoami
+$npm login
+$npm run release
+# or
+$git add .
+$git commit -m "v0.0.1 - Ready for publication"
+$git tag v0.0.1
+$git push origin master --tags
+$npm publish --access public
+```
+
 ## Resources
 
-* [n8n community nodes documentation](https://docs.n8n.io/integrations/community-nodes/)
-* [PocketBase Introduction](https://pocketbase.io/docs/)
-
-
-
+- [n8n community nodes documentation](https://docs.n8n.io/integrations/community-nodes/)
+- [PocketBase Introduction](https://pocketbase.io/docs/)
