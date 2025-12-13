@@ -4,6 +4,7 @@
 	"description": "Interact with your PocketBase instance",
 	"license": "MIT",
 	"homepage": "",
+  "private": "false",
 	"keywords": [
 		"n8n-community-node-package",
 		"pocketbase"
